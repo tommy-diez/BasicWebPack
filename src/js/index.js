@@ -5,12 +5,6 @@ const tableGenerator = require('./GenerateTable');
 
 TestJS();
 
-/*
-getJSON("", function (data) {
-    console.log(data);
-});
-*/
-
 getJSON('http://localhost:8000/api/v1/cities',
     function(err, records) {
         if (err !== null) {
