@@ -61,7 +61,7 @@ city.update = function(id, city, result) {
 };
 
 city.delete = function(id, result) {
-    let sql = "DELETE FROM tblCities WHERE id = ?";
+    let sql = "DELETE FROM tblCitiesImport WHERE id = ?";
     dbConnection.query(sql, [id], function(err, res) {
         if(err) {
             console.log("Error: " + err);
