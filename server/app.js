@@ -83,7 +83,6 @@ app.set('port', process.env.PORT || 8000);
 app.set('ip', process.env.NODEJS_IP || '127.0.0.1');
 
 if (app.get("env") === "production") {
-    // Serve secure cookies, requires HTTPS
     session.cookie.secure = true;
 }
 
