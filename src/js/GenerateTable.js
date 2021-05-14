@@ -4,6 +4,10 @@ class GenerateTable {
         let row = thead.insertRow();
         for (let key of data) {
             let th = document.createElement("th");
+            let att = document.createAttribute("scope");
+            att.value = "col";
+            th.setAttributeNode(att);
+            th.setAttribute('class', 'thead-light');
             let text = document.createTextNode(key);
             th.appendChild(text);
             row.appendChild(th);
