@@ -24,3 +24,6 @@ Turn on github pages and put a link to your site in the readme when you turn in 
 Working site here:
 
 http://www.webizly.com/BasicWebPack/
+
+#Auth0 implenentation
+![Screen Shot 2021-05-14 at 6 16 10 PM](https://user-images.githubusercontent.com/55417990/118336842-7dbacc00-b4e0-11eb-90a4-c6abc9c2b6aa.png)
